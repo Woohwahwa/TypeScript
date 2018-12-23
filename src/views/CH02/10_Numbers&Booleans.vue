@@ -1,6 +1,5 @@
 <template>
-  <v-app>
-  </v-app>
+  <div></div>
 </template>
 
 <script lang="ts">
@@ -8,15 +7,15 @@
     name: 'App',
     mounted() {
       // string
-      let myName = 'Max';
+      const myName = 'Max';
       // myName = 28;
 
       // number
-      let myAge = 27.5;
+      const myAge = 27.5;
       // myAge = 'Max';
 
       // boolean
-      let hasHobbies = true;
+      const hasHobbies = true;
       // hasHobbies = 1;
     },
     methods: {
